@@ -1,0 +1,9 @@
+CREATE TABLE orders (
+ORDER_ID bigint NOT NULL AUTO_INCREMENT,
+USER_ID int,
+ORDER_TOTAL double,
+ORDER_STATUS varchar(1),
+IS_DELETE boolean,
+PRIMARY KEY(ORDER_ID)
+);
+
